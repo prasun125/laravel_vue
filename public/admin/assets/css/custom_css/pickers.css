@@ -1,0 +1,41 @@
+.bootstrap-touchspin .input-group-btn-vertical .bootstrap-touchspin-down {
+    margin-top: -3px;
+}
+
+.colorpicker:after{
+    right:7px;
+    top:-16px;
+}
+
+.bootstrap-datetimepicker-widget.top:after{
+    display: none;
+}
+.bootstrap-datetimepicker-widget.bottom:after{
+    display: none;
+}
+.colorpicker-saturation:before{
+    top:15px;
+}
+.bootstrap-switch{
+    margin-top:10px;
+}
+@media (min-width: 320px) and (max-width:1024px){
+    .mar-top{
+        margin-top:0px !important;
+    }
+    .btn_block1 .btn-group {
+        float:none;
+        display: block;
+    }
+}
+@media (max-width:1024px){
+    .btn_padding{
+        padding-left:0px !important;
+        padding-right:0px !important;
+    }
+    .btn_padding1{
+        padding-right:0px !important;
+    }
+}
+
+

@@ -1,0 +1,15 @@
+.gmap {
+    width: 100%;
+    height: 300px;
+}
+body{
+    margin:0;
+}
+@media (min-width:320px) and (max-width:425px){
+    #gmap-types .gm-style div:nth-child(7){
+        margin:10px 1px !important;
+    }
+    #gmap-types .gm-style div:nth-child(11), #gmap-types .gm-style div:nth-child(12){
+        width:132px;
+    }
+}

@@ -1,0 +1,65 @@
+.daterangepicker {
+	display: flex;
+	flex-direction: row;
+	width: auto;
+	border-radius: 0;
+}
+.daterangepicker td.active.start-date, .daterangepicker td.active.start-date:hover, .daterangepicker td.active.end-date, .daterangepicker td.active.end-date:hover {
+	background-color: #FF9400;
+	border-top: 1px solid #FF9400;
+	border-bottom: 1px solid #FF9400;
+	color: inherit;
+}
+.daterangepicker td.available:hover, .daterangepicker tbody th.available:hover, .daterangepicker td.in-range {
+	border-top: 1px solid #FF9400;
+	border-bottom: 1px solid #FF9400;
+	border-radius: 0;
+	background-color: transparent;
+}
+.daterangepicker td.active.start-date, .daterangepicker td.active.start-date:hover, .daterangepicker td.active.end-date, .daterangepicker td.active.end-date:hover {
+	background-color: #FF9400;
+	border-top: 1px solid #FF9400;
+	border-bottom: 1px solid #FF9400;
+	color: inherit;
+}
+.daterangepicker thead th.available:hover {
+	background-color: transparent;
+}
+
+.daterangepicker .calendar-table table.table-condensed tbody {
+	border-collapse: unset;
+	border-spacing: 0 2px;
+}
+
+
+
+.left-container #show-calender .daterangepicker td.today.start-date.end-date {
+	border: none;
+	background-color: transparent;
+	cursor: default;
+}
+
+
+
+.left-container #show-calender .daterangepicker td.available:hover {
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+	border-radius: 0;
+	background-color: transparent;
+	cursor: default;
+}
+.left-container #show-calender .daterangepicker td.off, .left-container #show-calender .daterangepicker td.off:hover {
+	color: #999;
+}
+.left-container #show-calender .daterangepicker td.active.start-date, .left-container #show-calender .daterangepicker td.active.start-date:hover, .left-container #show-calender .daterangepicker td.active.end-date, .left-container #show-calender .daterangepicker td.active.end-date:hover {
+	background-color: transparent;
+	border-top: 1px solid #FF9400;
+	border-bottom: 1px solid #FF9400;
+	#color: inherit;
+}
+.left-container #show-calender .daterangepicker td.active.start-date, .left-container #show-calender .daterangepicker td.active.start-date:hover {
+	border-left: 1px solid #FF9400;
+}
+.left-container #show-calender .daterangepicker td.active.end-date, .left-container #show-calender .daterangepicker td.active.end-date:hover {
+	border-right: 1px solid #FF9400;
+}

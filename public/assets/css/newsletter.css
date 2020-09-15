@@ -1,0 +1,359 @@
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: rgba(250, 250, 250, 1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    -webkit-font-smoothing: antialiased;
+}
+*, *::before, *::after{
+    box-sizing: border-box;
+    outline: none;
+}
+*:focus{
+    outline: none;
+}
+/**::selection{
+    color: rgba(0, 105, 178, 1);
+}*/
+a {
+	text-decoration: none;
+}
+.capitalize {
+	text-transform: capitalize;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.text-center {
+	text-align: center;
+}
+.line-height {
+	line-height: 64px;
+}
+
+.height-inherit {
+	height: inherit;
+}
+.height-100vh {
+	height: 100vh;
+}
+
+.min-width-100 {
+	min-width: 100%;
+}
+.width-85 {
+	width: 85%;
+}
+.width-100 {
+	width: 100%;
+}
+.max-width-100 {
+	max-width: 100%;
+}
+.font-24 {
+	font-size: 24px;
+}
+/*
+|--------------------------------------------------------------------------
+| Input
+|--------------------------------------------------------------------------
+*/
+input[type=text] {
+	border: none;
+	font-size: inherit;
+	width: 100%;
+}
+/*
+|--------------------------------------------------------------------------
+| Button
+|--------------------------------------------------------------------------
+*/
+button {
+	margin: 0;
+	border: none;
+	font-size: inherit;
+	height: inherit;
+}
+/*
+|--------------------------------------------------------------------------
+| Position
+|--------------------------------------------------------------------------
+*/
+.pos-fixed {
+    position: fixed;
+}
+.pos-relative {
+    position: relative;
+}
+/*
+|--------------------------------------------------------------------------
+| Margin
+|--------------------------------------------------------------------------
+*/
+.m-0-8 {
+	margin: 0 8px;
+}
+.m-0-16 {
+    margin: 0 16px;
+}
+.m-16-0 {
+	margin: 16px 0;
+}
+/*
+|--------------------------------------------------------------------------
+| Padding
+|--------------------------------------------------------------------------
+*/
+.p-4 {
+	padding: 4px;
+}
+.p-8 {
+	padding: 8px;
+}
+.p-16 {
+	padding: 16px;
+}
+.p-32 {
+	padding: 32px;
+}
+.p-0-8 {
+	padding: 0 8px;
+}
+.p-0-16 {
+    padding: 0 16px;
+}
+.p-0-24 {
+	padding: 0 24px;
+}
+.p-0-32 {
+	padding: 0 32px;
+}
+.p-48-0 {
+	padding: 48px 0;
+}
+.p-8-24 {
+	padding: 8px 24px;
+}
+.p-t-12 {
+	padding-top: 12px;
+}
+.p-t-32 {
+	padding-top: 32px;
+}
+.p-r-24 {
+	padding-right: 24px;
+}
+.p-l-24 {
+	padding-left: 24px;
+}
+.p-b-8 {
+	padding-bottom: 8px;
+}
+.p-b-24 {
+	padding-bottom: 24px;
+}
+.p-l-32 {
+	padding-left: 32px;
+}
+/*
+|--------------------------------------------------------------------------
+| Flex
+|--------------------------------------------------------------------------
+*/
+.d-flex {
+    display: flex;
+}
+.flex-dir-row {
+    flex-direction: row;
+}
+.flex-dir-column {
+	flex-direction: column;
+}
+.flex-wrap {
+	flex-wrap: wrap;
+}
+.j-c-space-between {
+    justify-content: space-between;
+}
+.j-c-space-evenly {
+    justify-content: space-evenly;
+}
+.j-c-center {
+	justify-content: center;
+}
+.a-i-center {
+    align-items: center;
+}
+.flex-basis-45 {
+	flex-basis: 45%;
+}
+.flex-basis-50 {
+	flex-basis: 50%;
+}
+.flex-basis-55 {
+	flex-basis: 55%;
+}
+.flex-basis-100 {
+	flex-basis: 100%;
+}
+.flex-basis-250 {
+    flex-basis: 250px;
+}
+.flex-basis-33 {
+	flex-basis: calc(100%/3);
+}
+.flex-grow-1 {
+	flex-grow: 1;
+}
+/*
+|--------------------------------------------------------------------------
+| Color
+|--------------------------------------------------------------------------
+*/
+.color-white {
+	color: rgba(255, 255, 255, 1);
+}
+/*
+|--------------------------------------------------------------------------
+| Header
+|--------------------------------------------------------------------------
+*/
+header.bg-color {
+    background-color: rgba(0, 0, 0, 1);
+}
+.header--height-64px {
+    min-height: 64px;
+    height: 64px;
+    max-height: 64px;
+}
+.header--width-100p {
+    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+header.font {
+	font-size: 24px;
+}
+header a, header a:hover {
+	color: rgba(0, 197, 155, 1);
+}
+header.font span {
+	color: rgba(255, 174, 66, 1);
+}
+/*
+|--------------------------------------------------------------------------
+| Banner
+|--------------------------------------------------------------------------
+*/
+section.banner {
+	height: calc(100vh - 130px);
+	background-image: url('../../assets/images/banner2.jpg');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+section.banner div div div:nth-child(1), section.banner div div div:nth-child(2) {
+	font-size: 48px;
+	letter-spacing: 2px;
+}
+section.banner div div:nth-child(2) {
+	font-size: 24px;
+	letter-spacing: 2px;
+}
+section.banner div div div.percent-off:nth-child(1) {
+	font-size: 32px;
+	letter-spacing: 2px;
+}
+.get-code {
+	font-size: 24px !important;
+	background-color: rgba(236, 64, 122, 1);
+}
+.right-arrow {
+	height: 50px;
+	width: 50px;
+	background-color: rgba(136, 14, 79, 1);
+	cursor: pointer;
+}
+/*
+|--------------------------------------------------------------------------
+| Planning
+|--------------------------------------------------------------------------
+*/
+.planning {
+	background-color: rgba(0, 0, 0, 1);
+}
+.planning-title {
+	font-size: 32px;
+}
+.calender {
+	height: 150px;
+	width: 150px;
+}
+.planning-description {
+	font-size: 24px;
+}
+/*
+|--------------------------------------------------------------------------
+| News Letter
+|--------------------------------------------------------------------------
+*/
+.news-letter img {
+	height: 100%;
+	width: 100%;
+}
+.news-letter form {
+	position: absolute;
+	right: 0;
+}
+/*div.off::before {
+	content: '';
+	position: absolute;
+	height: 45px;
+	width: 16px;
+	top: 28px;
+	right: 20%;
+	background-color: white;
+}*/
+div.off::after {
+	content: '';
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	top: 34px;
+	right: 20%;
+	transform: rotate(45deg);
+	background-color: rgba(236, 64, 122, 1);
+	#background-color: white;
+}
+div.excite-me::after {
+	content: '';
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	bottom: -11px;
+	left: 8%;
+	transform: rotate(45deg);
+	#background-color: rgba(236, 64, 122, 1);
+	background-color: white;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.display-none {
+	display: none;
+}
+@media only screen and (max-width: 768px) {
+	body header {
+		justify-content: center;
+	}
+	.desktop.display {
+		display: none;
+	}
+}
+@media only screen and (min-width: 769px) {
+	.mobile.display {
+		display: none;
+	}
+}

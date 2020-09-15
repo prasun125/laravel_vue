@@ -1,0 +1,8 @@
+.jqvmap-zoomin, .jqvmap-zoomout{
+    padding: 0 !important;
+    width: 13px !important;
+    height: 12px !important;
+}
+.nav_profile .content-profile .icon-list li i {
+    margin-top: 5px !important;
+}

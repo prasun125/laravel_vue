@@ -1,0 +1,431 @@
+aside.sidenav, #sidenav-overlay {
+	min-height: 100vh;
+	max-height: 100vh;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 2;
+	/*-webkit-transition: all .4s ease-in-out;
+	-webkit-transform: translateX(104%);
+	-moz-transform: translateX(104%);
+	-ms-transform: translateX(104%);
+	-o-transform: translateX(104%);
+	transform: translateX(104%);*/
+	-webkit-box-shadow: 0 0 8px 0 rgba(0,0,0,0.75);
+	-moz-box-shadow: 0 0 8px 0 rgba(0,0,0,0.75);
+	box-shadow: 0 0 8px 0 rgba(0,0,0,0.75);
+}
+aside.sidenav {
+	background-color: rgba(250, 250, 250, 1);
+	min-width: 50%;
+	max-width: 50%;
+}
+#sidenav-overlay {
+	background-color: rgba(250, 250, 250, 0.5);
+	min-width: 100%;
+	max-width: 100%;
+}
+aside.sidenav.open {
+	/*-webkit-transform: translateX(0%);
+	-moz-transform: translateX(0%);
+	-ms-transform: translateX(0%);
+	-o-transform: translateX(0%);
+	transform: translateX(0%);*/
+}
+aside.sidenav.close {
+	-webkit-transform: translateX(104%);
+	-moz-transform: translateX(104%);
+	-ms-transform: translateX(104%);
+	-o-transform: translateX(104%);
+	transform: translateX(104%);
+}
+aside.sidenav > div:first-child > i {
+	cursor: pointer;
+}
+aside.sidenav .add-destination-title, aside.sidenav .suggested-destination-title {
+	font-size: 20px;
+	color: rgba(0, 0, 0, 1);
+	text-align: center;
+	font-weight: 400;
+}
+aside.sidenav .add-destination-description {
+	font-size: 11px;
+	color: rgba(0, 0, 0, 1);
+	text-align: center;
+	font-weight: 400;
+}
+.add-destination-description {
+	min-width: 100%;
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+}
+aside.sidenav > div.sidenav-container {
+	min-width: 90%;
+	width: 90%;
+	max-width: 90%;
+	margin: 0 auto;
+}
+.sidenav-container > div > div > div > div.dropdown-wrapper {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: rgba(250, 250, 250, 1);
+	z-index: 2;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	max-height: 300px;
+	overflow: scroll;
+}
+/*.sidenav-container > div:first-child > div:first-child > div:not(:nth-child(3)) {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	flex-basis: calc(100% / 3) ;
+	width: calc(100% / 3) ;
+	max-width: calc(100% / 3) ;
+}*/
+.city-input-container, .date-outer-container {
+	flex-basis: calc(100% / 3) ;
+	width: calc(100% / 3) ;
+	max-width: calc(100% / 3) ;
+}
+.city-input-container, .date-container {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.city-input-container {
+	height: 42px;
+}
+.date-error-msg {
+	font-size: 10px;
+	align-self: flex-start;
+	font-weight: 400;
+	color: rgba(255, 0, 0, 1);
+	letter-spacing: 0.5px;
+}
+.date-container {
+	flex-basis: 100%;
+	width: 100%;
+	max-width: 100%;
+}
+.date-container > div:not(:nth-child(2)) {
+	flex-basis: calc((100% / 2) - 2%);
+	width: calc((100% / 2) - 2%);
+	max-width: calc((100% / 2) - 2%);
+}
+/*.sidenav-container > div > div > div > div {
+	max-width: calc(100% / 3);
+	flex-grow: 1;
+}*/
+.sidenav-container > div input[type=text] {
+	min-height: 40px;
+	height: 40px;
+	max-height: 40px;
+	background-color: transparent;
+	font-size: 14px;
+	padding: 0;
+	width: inherit;
+}
+.last-destination {
+	font-size: 14px;
+	font-weight: 400;
+}
+.flex-item {
+	min-height: 110px;
+	height: 110px;
+	max-height: 110px;
+	overflow: hidden;
+	background-color: white;
+}
+.flex-item {
+	flex-basis: calc((100% / 3) - 2%);
+}
+div.suggested {
+	#min-height: 350px;
+	#height: 350px;
+	max-height: 405px;
+	overflow: scroll;
+	flex: 1 0 0;
+}
+div.middle-addon-suggested {
+	#min-height: 230px;
+	#height: 230px;
+	max-height: 430px;
+	overflow: scroll;
+	flex: 1 0 0;
+}
+div.suggested .flex-item, .addon-flex {
+	flex-basis: calc((100% / 3) - 5%);
+}
+.add-ons > div {
+	flex-basis: calc((100% / 3) - 5%);
+	width: calc((100% / 3) - 5%);
+	max-width: calc((100% / 3) - 5%);
+}
+.flex-item > img, .flex-item > div:first-child img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+.flex-item .show-distance {
+	min-height: 80px;
+	height: 80px;
+	max-height: 80px;
+}
+.show-distance > div > img {
+	height: 24px;
+	width: 24px;
+	top: 1%;
+	left: 50%;
+	transform: translate(-50%, -100%);
+}
+.show-distance > div:first-child > div {
+	min-height: 1px;
+	height: 1px;
+	max-height: 1px;
+	min-width: 50%;
+	width: 50%;
+	max-width: 50%;
+}
+.show-distance .background-color-green > div:first-child {
+	min-height: 8px;
+	height: 8px;
+	max-height: 8px;
+	min-width: 8px;
+	width: 8px;
+	max-width: 8px;
+	border-radius: 50%;
+	background-color: #00B69C;
+	content: '';
+}
+.show-distance .background-color-orange > div:first-child {
+	min-height: 8px;
+	height: 8px;
+	max-height: 8px;
+	min-width: 8px;
+	width: 8px;
+	max-width: 8px;
+	border-radius: 50%;
+	background-color: #FF9400;
+	content: '';
+}
+.serial-no {
+	background-color: rgba(0, 0, 0, 1);
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 14px;
+	width: 14px;
+	font-size: 10px;
+	font-weight: 400;
+}
+aside div.flex-item .sleeping-here-close {
+	display: none;
+}
+aside div.flex-item.selected .sleeping-here-close, aside div.flex-item.selectedaddon .sleeping-here-close {
+	display: flex;
+	background-color: rgba(255, 255, 255, 1);
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 14px;
+	width: 14px;
+	cursor: pointer;
+	z-index: 1;
+}
+.sleeping-here-close > i {
+	font-size: 10px;
+	font-weight: 400;
+	color: #FF9400;
+}
+button.sleep-here, button.just-a-look, button.free {
+	height: 24px;
+	cursor: pointer;
+	color: rgba(255, 255, 255, 1);
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 7px;
+	font-weight: bold;
+	position: absolute;
+	bottom: 8px;
+	left: 0;
+	right: 0;
+}
+button.sleep-here {
+	background-color: #FF9400;
+	margin: 0 auto;
+	width: 100px;
+}
+button.just-a-look {
+	background-color: #00B69C;
+	left: auto;
+	right: 6%;
+}
+button.free {
+	background-color: #00B69C;
+	margin: 0 auto;
+	width: 100px;
+	font-size: 10px;
+}
+aside.sidenav div.addon-flex button.sleep-here, aside.sidenav div.addon-flex button.just-a-look {
+	padding: 0 4px;
+	font-size: 7px;
+}
+aside div.flex-item.selected button.sleep-here, aside div.flex-item div.sleeping-here, aside div.flex-item.selectedaddon button.sleep-here, aside div.flex-item.selectedaddon button.just-a-look {
+	display: none;
+}
+aside div.flex-item.selected div.sleeping-here, aside div.flex-item.selectedaddon div.sleeping-here {
+	width: 100%;
+	color: rgba(255, 255, 255, 1);
+	font-size: 12px;
+	font-weight: bold;
+	position: absolute;
+	bottom: 24px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	display: block;
+}
+aside div.flex-item .city-name, .marker-city-name {
+	font-size: 11px;
+	min-width: 70%;
+	width: 70%;
+	max-width: 70%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	-webkit-transition: all .2s ease-in-out;
+	position: absolute;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+.marker-city-name {
+	color: white;
+}
+aside div.flex-item .city-name, aside .suggested .addon-flex div.flex-item.selectedaddon:hover .city-name {
+	top: 34%;
+	color: rgba(255, 255, 255, 1);
+}
+.marker-city-name {
+	top: 6%;
+}
+.marker-city-image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+aside div.flex-item .city-description, .marker-city-description,  aside .suggested .addon-flex div.flex-item.selectedaddon:hover .city-description {
+	bottom: -30%;
+	font-size: 10px;
+	min-width: 80%;
+	width: 80%;
+	max-width: 80%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	-webkit-transition: all .2s ease-in-out;
+	position: absolute;
+}
+aside div.flex-item .city-description,  aside .suggested .addon-flex div.flex-item.selectedaddon:hover .city-description {
+	color: black;
+}
+.marker-city-description {
+	color: white;
+}
+/*aside .suggested div.flex-item:not(.selected):hover img {
+	opacity: 0;
+}*/
+aside .addon-flex div.flex-item.selectedaddon:hover img {
+	opacity: 1;
+}
+/*aside .suggested div.flex-item:not(.selected):hover .city-name {
+	top: 2%;
+	color: rgba(0, 0, 0, 1);
+}*/
+aside .suggested .addon-flex div.flex-item:not(.selectedaddon):hover .city-description {
+	bottom: 40%;
+}
+aside.sidenav div > div:first-child > div:nth-child(2) > div input[type=text] {
+	max-width: 80%;
+}
+aside.sidenav div.flex-item .bg-opaque {
+	display: none;
+}
+aside.sidenav div.flex-item.selected .bg-opaque, aside.sidenav div.flex-item.selectedaddon .bg-opaque {
+	display: block;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	opacity: 0.2;
+}
+aside.sidenav div.flex-item.selected .bg-opaque {
+	background-color: #FF9400;
+}
+aside.sidenav div.flex-item.selectedaddon .bg-opaque {
+	background-color: #00B69C;
+	opacity: 0.7;
+}
+aside.sidenav div.flex-item.selectedaddon .serial-no, aside.sidenav div.flex-item.selectedaddon .city-name, aside.sidenav div.flex-item.selectedaddon .sleeping-here {
+	z-index: 2;
+}
+aside.sidenav div.addon-flex button.sleep-here {
+	margin: 0;
+	width: max-content;
+	font-size: 7px;
+	left: 6%;
+}
+aside.sidenav div.addon-flex button {
+	padding: 0;
+}
+aside.sidenav div.add-ons div.flex-item:after {
+	content: '';
+	height: 10px;
+	width: 100%;
+	position: absolute;
+	bottom: -20%;
+}
+@media only screen and (max-width: 768px) {
+	aside.sidenav {
+		min-width: 100%;
+		width: 100%;
+		max-width: 100%;
+	}
+	aside.sidenav .add-destination-title, aside.sidenav .suggested-destination-title {
+		font-size: 28px;
+	}
+	aside.sidenav .add-destination-description {
+		font-size: 10px;
+	}
+	aside.sidenav > div.sidenav-container {
+		margin-top: 16px;
+	}
+	.sidenav-container > div > div > div {
+		flex-basis: 100%;
+		max-width: 100%;
+	}
+	.sidenav-container > div:first-child > div:first-child > div {
+		flex-basis: 100%;
+		max-width: 100%;
+		margin-top: 16px;
+	}
+	.sidenav-container > div input[type=text] {
+		max-width: none;
+		flex-grow: 1;
+	}
+	.sidenav-container > div:first-child > div:first-child > button.green-button {
+		min-height: 40px;
+		height: 40px;
+		max-height: 40px;
+		min-width: 70%;
+		width: 70%;
+		max-width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.sidenav-container > div:nth-child(3) > div.flex-item {
+		flex-basis: 100%;
+		max-width: 100%;
+	}
+}

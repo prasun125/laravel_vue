@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>time_blue_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="time_blue_icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pickup-time-clock-copy" fill="#010A2D">
+            <path d="M5,0.9375 C7.24,0.9375 9.0625,2.76 9.0625,5 C9.0625,7.2403125 7.24,9.0625 5,9.0625 C2.76,9.0625 0.9375,7.2403125 0.9375,5 C0.9375,2.76 2.76,0.9375 5,0.9375 M5,10 C7.756875,10 10,7.756875 10,5 C10,2.243125 7.756875,0 5,0 C2.243125,0 0,2.243125 0,5 C0,7.756875 2.243125,10 5,10" id="Fill-1"></path>
+            <path d="M5,5.4684375 L6.875,5.4684375 C7.1340625,5.4684375 7.34375,5.25875 7.34375,4.9996875 C7.34375,4.740625 7.1340625,4.5309375 6.875,4.5309375 L5.46875,4.5309375 L5.46875,2.1875 C5.46875,1.9284375 5.2590625,1.71875 5,1.71875 C4.7409375,1.71875 4.53125,1.9284375 4.53125,2.1875 L4.53125,4.9996875 C4.53125,5.2584375 4.7409375,5.4684375 5,5.4684375" id="Fill-3"></path>
+        </g>
+    </g>
+</svg>

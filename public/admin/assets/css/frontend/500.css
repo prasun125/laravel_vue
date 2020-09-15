@@ -1,0 +1,91 @@
+/* Fonts Imported from Google */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600,400);
+/*   Core: General style
+----------------------------*/
+
+body {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif !important;
+    background:url('../../images/500bg.png');
+    color: #fff;
+}
+
+.err-cont {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 100%;
+    margin-top: -150px;
+    z-index: 98;
+}
+.err-cont h1{
+    font-size: 80px;
+    color: #ffffff;
+    left:50%;
+    position:relative;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: -1px 0 #ef6f6c, 0 1px #ef6f6c, 1px 0 #ef6f6c, 0 -1px #ef6f6c;
+
+}
+.err-cont img,.err-cont a{
+    top:25%;
+    bottom:-5%;
+    left: 50%;
+    position: relative;
+}
+.err-cont a button{
+    color:#182003;
+    background-color:#fff;
+    border:none;
+    border-radius:0;
+}
+/* animation */
+.animated {
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes bounceInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-2000px);
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: translateX(30px);
+    }
+    80% {
+        -webkit-transform: translateX(-10px);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+    }
+}
+
+@keyframes bounceInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-2000px);
+    }
+    60% {
+        opacity: 1;
+        transform: translateX(30px);
+    }
+    80% {
+        transform: translateX(-10px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+.bounceInLeft {
+    -webkit-animation-name: bounceInLeft;
+    animation-name: bounceInLeft;
+}
+.btn{
+    background-color: #4fc1e9 !important;
+    color: #ffffff !important;
+    border-radius: 5px !important;
+}

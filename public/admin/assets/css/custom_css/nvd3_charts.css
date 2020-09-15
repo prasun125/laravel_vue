@@ -1,0 +1,45 @@
+
+#chart1 svg{
+  height: 300px;
+}
+#chart2 svg,#chart3 svg,#chart4 svg{
+  height: 300px;
+
+}
+#chart5 svg{height: 400px;
+}
+.bg-panel{
+	background:url(../../img/light_grey.png); 
+	height:100%;
+
+}
+.bg-panel-grn{
+	background: #4FC1E9;
+}
+
+#chart2 svg text {
+    fill:#fff;
+}
+
+.nvd3.nv-candlestickBar .nv-ticks .nv-tick.positive rect {
+    stroke: #a0d468;
+    fill: #a0d468;
+}
+
+.nvd3.nv-candlestickBar .nv-ticks .nv-tick.negative rect {
+    stroke: #fd9883;
+    fill: #fd9883;
+}
+@media (max-width:425px){
+    #chart1 .nv-legendWrap,#chart4 .nv-legendWrap{
+        display:none;
+
+    }
+    #chart3 .nv-legendWrap{
+        display:none;
+    }
+    .nvtooltip.xy-tooltip{
+        width:130px !important;
+        white-space: inherit !important;
+    }
+}

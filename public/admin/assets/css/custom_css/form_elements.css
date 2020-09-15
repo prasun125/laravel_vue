@@ -1,0 +1,62 @@
+.select2-container--default .select2-selection--multiple,.select2-container--default .select2-selection--single{
+    border-radius:0;
+
+}
+.select2-container .select2-selection--multiple{
+    height:32px;
+}
+.select2-container .select2-selection--single{
+    height:34px;
+}
+.daterangepicker.opensleft:after{
+    display:none;
+}
+#checkbox_margl{
+    margin-left: 15px;
+}
+.input-group-btn .btn{
+    padding: 6px 12px;
+}
+
+.sam{
+    padding: 7px 12px !important;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    margin-top:9px;
+    width:20px;
+}
+.checkbox-inline input[type="checkbox"]{
+    margin-top:5px;
+}
+
+.icheckbox_minimal-green, .iradio_minimal-green, .icheckbox_minimal, .iradio_minimal, .icheckbox_minimal, .iradio_minimal{
+    width:20px;
+    height:20px;
+}
+.input_append{
+    margin:1px;
+}
+#textarea{
+    resize: vertical;
+}
+.input-group-addon{
+
+     background-color: #fff;
+}
+#padding_go{
+    padding: 7px 12px;
+    margin-right: -2px;
+}
+#kvFileinputModal{
+    z-index:999999;
+}
+.select2{
+    width:100% !important;
+}
+.dropdown_position:after{
+    left:55px;
+}
+.dropdown_position1:after{
+    right:37px;
+}

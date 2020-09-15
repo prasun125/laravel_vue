@@ -1,0 +1,155 @@
+/* --------- Panel Css Start ---------- */
+.row{
+padding: 0 15px;
+}
+.paddingleft_right15{
+	padding:0 15px;
+}
+.clickable{
+    cursor: pointer;   
+}
+.panel-heading span {
+	margin-top: -20px;
+	font-size: 15px;
+}
+/* ---------- btn custom css ---------- */
+
+.btn-success {
+color: #fff;
+background-color: #A0D468;
+border-color: #A0D468;
+}
+.btn-primary {
+color: #fff;
+background-color: #4FC1E9;
+border-color: #4FC1E9;
+}
+.btn-info {
+color: #fff;
+background-color: #48CFAD;
+border-color: #48CFAD;
+}
+.btn-warning {
+color: #fff;
+background-color:#FFCE54;
+border-color: #FFCE54;
+}
+.btn-danger {
+color: #fff;
+background-color:#FD9883;
+border-color: #FD9883;
+}
+
+/* ---------- //Btn Css End ---------- */
+/* tables custome code*/
+
+.success {
+background: #A0D468;
+
+}
+.primary {
+background: #4FC1E9;
+}
+.info {
+background: #48CFAD;
+}
+.warning {
+background: #FFCE54;
+}
+.danger {
+background: #FD9883;
+}
+
+/*warning*/
+.panel-warning {
+ border-color: #E7E1E8;
+}
+.panel-warning > .panel-heading {
+ color: #fff;
+ background-color:#FFCE54;
+ border-color: #FFCE54;
+}
+.panel-warning > .panel-heading + .panel-body {
+ border-top-color: #FFCE54;
+}
+
+/*danger*/
+.panel-danger {
+ border-color: #E7E1E8;
+}
+.panel-danger > .panel-heading {
+color: #fff;
+ background-color: #FD9883;
+ border-color: #FD9883;
+}
+.panel-danger > .panel-heading + .panel-collapse .panel-body {
+ border-top-color:#FD9883;
+}
+.panel-danger > .panel-footer + .panel-collapse .panel-body {
+ border-bottom-color:#FD9883;
+}
+/*success*/
+.panel-success {
+ border-color: #E7E1E8;
+}
+.panel-success > .panel-heading {
+color: #fff;
+ background-color: #A0D468;
+ border-color: #A0D468;
+}
+.panel-success > .panel-heading + .panel-collapse .panel-body {
+ border-top-color: #A0D468;
+}
+.panel-success > .panel-footer + .panel-collapse .panel-body {
+ border-bottom-color:#A0D468;
+}
+/*Primary*/
+.panel-primary {
+ border-color: #E7E1E8;
+}
+.panel-primary > .panel-heading {
+color: #fff;
+ background-color: #4FC1E9;
+ border-color:  #4FC1E9;
+}
+.panel-primary > .panel-heading + .panel-collapse .panel-body {
+ border-top-color:  #4FC1E9;
+}
+.panel-primary > .panel-footer + .panel-collapse .panel-body {
+ border-bottom-color: #4FC1E9;
+}
+/*default*/
+
+
+.panel-default> .panel-heading + .panel-collapse .panel-body {
+ border-top-color: #C1C1B7;
+}
+
+.panel-default> .panel-footer + .panel-collapse .panel-body {
+ border-bottom-color: #C1C1B7;
+}
+/***
+Customized Bootstrap Buttons
+***/
+.bs-example .nav-tabs>li {
+float: left;
+margin-bottom: -2px;
+}
+.fancybox-custom .fancybox-skin {
+    box-shadow: 0 0 50px #222;
+}
+/* ---------- Btn hover css Start ---------- */
+.btn-primary:hover{
+  color: #fff;
+background-color: #48CFAD;
+border-color:#48CFAD;
+}
+.btn-danger:hover{
+  color: #fff;
+background-color: #CA6550;
+border-color:#CA6550;
+}
+/* ---------- //Btn hover css End ---------- */
+/* --------- //Panel Css End---------- */
+
+

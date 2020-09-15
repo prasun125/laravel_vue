@@ -1,0 +1,16 @@
+.btn.focus, .btn:focus, .btn:hover{
+    color: #4fc1e9;
+}
+.btn{
+    color: #555555;
+}
+.flippant-back input,.flippant-back textarea{
+    width:100%;
+    max-width:43em !important;
+
+}
+@media (min-width:320px){
+    .flippant-back textarea{
+        height:6em !important;
+    }
+}

@@ -1,0 +1,96 @@
+/* Fonts Imported from Google */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600,400);
+/*   Core: General style
+----------------------------*/
+html{
+    height:100%;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background:url('../../images/login-bg.png')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100%;
+    padding-top:5%;
+
+}
+.box{
+    width:400px;
+    margin:auto;
+    border-radius: 3px;
+    background-color: #fff;
+    padding:5px 20px 15px 20px;
+}
+.box img{
+    margin-top:10px;
+    margin-bottom:5px;
+}
+.box input[type='submit']{
+    margin:40px 0 20px 0;
+}
+@media screen and (max-width: 400px) {
+    .mar-left5{
+        margin-left: 18px !important;
+        margin-top: -10px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .mar-top4{
+        margin-top: -10px;
+    }
+
+}
+@media screen and (max-width: 400px) {
+    .mar-left{
+        margin-left: -5px !important;
+    }
+}
+
+/* animation */
+
+.text-primary,.btn-primary{
+
+    -webkit-animation: CAnimation 30s infinite linear; /* Chrome, Safari, Opera */
+    animation: CAnimation 30s infinite linear;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes CAnimation {
+    from {
+        -webkit-filter: hue-rotate(0deg);
+    }
+
+    to {
+        -webkit-filter: hue-rotate(-360deg);
+    }
+}
+
+/* Standard syntax */
+@keyframes CAnimation {
+    from {
+        -webkit-filter: hue-rotate(0deg);
+    }
+
+    to {
+        -webkit-filter: hue-rotate(-360deg);
+    }
+}
+.checkbox label{
+    padding-left:0;
+}
+.help-block {
+    color: #fd9883;
+}
+.has-error .input-group-addon{
+    color: #000;
+}
+.has-error .form-control {
+    border-color: #FD9883;
+}
+@media (max-width:320px){
+    .box{
+        width:100%;
+    }
+}

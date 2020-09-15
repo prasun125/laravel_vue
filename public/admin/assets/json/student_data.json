@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Elizabeth",
+        "class": "Class1"
+    },
+    {
+        "id": 2,
+        "name": "Marvin",
+        "class": "Class2"
+    },
+    {
+        "id": 3,
+        "name": "Mickey",
+        "class": "Class3"
+    },
+    {
+        "id": 4,
+        "name": "Roberta",
+        "class": "Class4"
+    },
+    {
+        "id": 5,
+        "name": "Carla",
+        "class": "Class5"
+    },
+    {
+        "id": 6,
+        "name": "Dorothy",
+        "class": "Class6"
+    },
+    {
+        "id": 7,
+        "name": "Felicia",
+        "class": "Class7"
+    },
+    {
+        "id": 8,
+        "name": "Brian",
+        "class": "Class8"
+    },
+    {
+        "id": 9,
+        "name": "Nathan",
+        "class": "Class9"
+    },
+    {
+        "id": 10,
+        "name": "Stephen",
+        "class": "Class10"
+    }
+]

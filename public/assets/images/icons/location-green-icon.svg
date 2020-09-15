@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="18px" viewBox="0 0 13 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>location_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 13 0 13 18 0 18"></polygon>
+    </defs>
+    <g id="location_icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Page-1">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Clip-2"></g>
+            <path d="M6.5,8.54999631 C5.21857286,8.54999631 4.17856676,7.54198888 4.17856676,6.2999884 C4.17856676,5.05800901 5.21857286,4.05000158 6.5,4.05000158 C7.78142714,4.05000158 8.82143324,5.05800901 8.82143324,6.2999884 C8.82143324,7.54198888 7.78142714,8.54999631 6.5,8.54999631 M6.5,0 C2.91106818,0 0,2.8215011 0,6.2999884 C0,11.0249902 6.5,18 6.5,18 C6.5,18 13,11.0249902 13,6.2999884 C13,2.8215011 10.0889101,0 6.5,0" id="Fill-1" fill="#00B69C" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>

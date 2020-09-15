@@ -1,0 +1,99 @@
+.display-flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.force-display-flex{
+    display: flex !important;
+    flex-wrap: wrap;
+}
+.full-width{
+    width: 100%;
+}
+.display-flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.display-flex-column1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.basline{
+    align-items: baseline !important;
+}
+.display-flex-start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.center-align{
+    align-items: center;
+}
+.center-justify-content{
+    justify-content: center;
+}
+.space-evenly{
+    justify-content: space-evenly;
+}
+.space-around{
+    justify-content: space-around;
+}
+.space-between{
+    justify-content: space-between;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.full-height{
+    height: 100%;
+}
+.flex-start{
+    justify-content: flex-start;
+}
+.flex-end{
+    justify-content: flex-end;
+}
+.display-flex{
+    display: flex;
+}
+.align-items-center{
+    align-items: center;
+}
+.align-items-start{
+    align-items: flex-start;
+}
+.align-items-end{
+    align-items: flex-end;
+}
+.flex-direction-column{
+    flex-direction: column;
+}
+.flex-direction-row{
+    flex-direction: row;
+}
+
+.border-radius-2{
+    border-radius: 2px;
+}
+.border-radius-50{
+    border-radius: 50%;
+}
+.border-radius-0{
+    border-radius: 0;
+}
+.display-block{
+    display: block;
+}
+.border-radius-round{
+    border-radius: 7em;
+}
+.is-card{
+    background-color: white;
+    box-shadow: lightgray 0px 2px 4px;
+    padding: 24px 16px;
+    border-radius: 2px;
+}

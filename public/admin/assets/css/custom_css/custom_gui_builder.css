@@ -1,0 +1,58 @@
+.chk-align {
+    padding-right: 10px;
+}
+.chk-label-margin {
+    margin-left: 5px;
+}
+.required {
+    color: red;
+    padding-left: 5px;
+}
+
+.btn-success:active, .btn-success:focus{
+    background-color: #01BC8C;
+}
+.panel-heading{
+    padding: 1px 15px;
+}
+
+.alert-warning{
+    background-color: #fc6;
+}
+.div_gnr_rst{
+    padding:15px 15px;
+    text-align: right;
+}
+
+.btn_generate{
+    border-color: transparent;
+    padding-left: 10px;
+}
+.margtop {
+    margin-top: 7px;
+}
+.badge{
+    float: none;
+}
+.sweet-alert h2{
+    color: #333;
+    font-size: 20px;
+}
+
+.sweet-alert button {
+    background-color: #c8e9b1 !important;
+    border-radius: 3px;
+    padding: 6px 30px;
+}
+.text-capitalize {
+    text-transform: capitalize;
+}
+.pad_left{
+    padding-left: 0;
+}
+.pad_right{
+    padding-right: 0;
+}
+.select2-container--default .select2-selection--single,.select2-container--default .select2-selection--multiple{
+    border-radius: 0;
+}

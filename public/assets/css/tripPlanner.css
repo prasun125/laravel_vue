@@ -1,0 +1,723 @@
+/*
+.trip-plan-container{
+    height: 100%;
+    width: 100%;
+    !*border: 1px solid black;*!
+    !*padding-top: 60px;*!
+}
+.trip-planner{
+    width: 100%;
+    height: 100%;
+    !*border: 1px solid black;*!
+
+}
+.trip-planner-slider{
+    height: 100%;
+    width: 100%;
+    !*border:1px solid black;*!
+}
+.custom-navbar {
+    background-color: rgba(0,0,0,0.6);
+}
+.detail-form{
+    height: 100%;
+    width: 100%;
+    !*border: 1px solid black;*!
+}
+.planner-container{
+    !*border: 1px solid black;*!
+    height: 100%;
+    padding-top: 50px;
+    width: 100% !important;
+    padding-bottom: 50px;
+
+}
+.planner{
+    min-height: 250px;
+    width: 551px;
+    !*border: 1px solid black;*!
+
+}
+.details{
+    min-height: 750px;
+    width: 441px;
+    !*border: 1px solid black;*!
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px lightgray;
+}
+.details  .margin{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.traveller-number{
+    height: 163px;
+    width: 100%;
+
+    !*border: 1px solid black;*!
+}
+.select-traveller{
+    height: 160px;
+    width: 70%;
+    !*border: 1px solid black;*!
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px lightgray;
+}
+.adultsAdd span{
+    font-size: 26px;
+    width: 25px;
+    text-align: center;
+}
+.adultsAdd i{
+    cursor: pointer;
+    !*border: 1px solid black;*!
+    border-radius: 50%;
+    box-shadow: 0 2px 5px lightgray;
+}
+.activate{
+    color: lightgreen;
+}
+.removeActivate{
+    color: red;
+}
+.disabled{
+    color: lightgrey;
+}
+#map{
+    height: 231px;
+    !*border: 1px solid black;*!
+}
+.routes-list{
+    width: 100%;
+    height: auto;
+    !*border: 1px solid black;*!
+}
+.places{
+    width: 100%;
+    height: auto;
+    padding: 16px 0;
+    !*border: 1px solid black;*!
+    position: relative;
+    background-color: white;
+}
+.place-name > span{
+    font-size: 18px;
+
+}
+.routes-action{
+    !*border: 1px solid black;*!
+    height: 34%;
+    width: 100%;
+}
+.routes-action .adding{
+    !*border: 1px solid black;*!
+    background-color: white;
+    height: 24px;
+    box-shadow: 0 2px 5px lightgray;
+    cursor: pointer;
+}
+!*.routes-action .price{*!
+    !*width: 47%;*!
+    !*text-align: center;*!
+!*}*!
+.routes-action .edit{
+    cursor: pointer;
+}
+.places select{
+    width: 173px !important;
+}
+.route-list-container{
+    padding: 5px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px lightgray;
+
+}
+.place-name{
+    width: 100%;
+    height: 28px;
+    !*border: 1px solid black;*!
+}
+.place-name span{
+    font-weight: bold;
+}
+.edit-form{
+    width: 100%;
+    padding-left: 20px !important;
+}
+.nights-select{
+    display: block !important;
+    border-radius: 0 !important;
+    font-weight: bold;
+}
+.places-container{
+    !*border: 1px solid black;*!
+    width: 100%;
+}
+.location-sign{
+    !*border: 1px solid black;*!
+    width: 21%;
+
+}
+
+.location-sign .image{
+
+    position: relative;
+    height: 41px;
+    border-radius: 50%;
+    width: 46px;
+    margin-left: 22px;
+    background-color: rgb(5, 140, 187);
+    box-shadow: 0 2px 5px lightgray;
+}
+.line{
+    position: absolute;
+    border: 1px solid lightgray;
+    left: 42px;
+    z-index: 0;
+
+
+}
+.place-location-icon{
+    color: white;
+    font-size: 21px;
+}
+
+.custom-modal{
+    width: 43%;
+}
+.custom-modal-header{
+    border-bottom: transparent;
+}
+.custom-modal-content{
+    border-radius: 0;
+}
+.edit-form-checkbox{
+    margin: 0;
+    width: 44%;
+}
+.edit-form{
+    border-top: 1px solid lightgray;
+    background-color: #fbfbfb;
+    height: 117%;
+    padding: 5px;
+}
+.add-destination-button{
+    height: 55px;
+    padding: 5px;
+}
+.add-destination-button button:hover{
+    background-color: #00a680;
+}
+.add-destination-button button:focus{
+    background-color: #00a680;
+}
+
+.custom-modal-footer{
+    border-top: transparent;
+}
+
+.horizontal-line{
+    vertical-align: middle;
+    margin-top: 19px;
+    height: 0px;
+    width: 50%;
+    border: 1px solid lightgrey;
+    border-bottom: transparent;
+}
+.horizontal-line-traveller{
+    vertical-align: middle;
+    margin-top: 19px;
+    height: 0px;
+    width: 32%;
+    border: 1px solid lightgrey;
+    border-bottom: transparent;
+}
+.add-vehicle-type{
+    height: 100px;
+    background-color: rgb(251, 251, 251);
+    border-top: 1px solid lightgray;
+}
+!*.select-vehicle-heading > .horizontal-line, .select-vehicle-heading > .vehicle-edit{*!
+    !*display: none;*!
+!*}*!
+.select2-selection{
+    border-radius: 0 !important;
+    height: 35px !important;
+    font-weight: bold !important;
+}
+.delete-option .delete{
+    font-size: 20px;
+}{}
+.delete-option > i, .delete-option >a{
+    color: red;
+}
+.place-distance::before{
+    content: 'directions_car';
+    font-family: 'Material Icons';
+    position: relative;
+    font-size: 15px;
+}
+.price::before{
+    content: 'account_balance_wallet';
+    font-family: 'Material Icons';
+    position: relative;
+    font-size: 15px;
+}
+.place-travel-time::before{
+    content: 'timer';
+    font-family: 'Material Icons';
+    position: relative;
+    font-size: 15px;
+}
+.place-night-stay::before{
+    content: 'brightness_4';
+    font-family: 'Material Icons';
+    position: relative;
+    font-size: 15px;
+}
+.fc-center h2   {
+    font-size: 25px !important;
+}
+.swiper-slide p{
+    color: white;
+    position: relative;
+    bottom: 57%;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.swiper-slide::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.routes-action{
+    margin-top: 33px;
+}
+
+@media only screen and (max-width: 1297px) and (min-width:669px){
+    .planner{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .details{
+        width: 100%;
+    }
+    .location-sign .image{
+        width: 43px;
+    }
+    .planner-container{
+        margin: 0;
+        width: 100% !important;
+    }
+    .trip-planner-form{
+        width: 100%;
+    }
+    .location-sign .image{
+        margin-left: 17%;
+    }
+    .line{
+        left: 6%;
+    }
+}
+
+@media only screen and (max-width: 668px){
+    .planner{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .details{
+        width: 100%;
+    }
+    .trip-planner-form{
+        width:95% !important;
+    }
+    .planner-container{
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100% !important;
+    }
+}
+
+
+@media only screen and (max-width: 520px){
+    .routes-action span{
+        font-size: 10px;
+    }
+    .routes-action span::before{
+        font-size: 10px;
+    }
+    .edit-form-checkbox{
+        width: 100%;
+        padding-left: 5px;
+    }
+    .trip-planner-form{
+        width:95% !important;
+    }
+    .planner-container{
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100% !important;
+    }
+    .routes-action{
+        margin-top: 0;
+    }
+    .location-sign .image{
+        height: 33px;
+        width: 34px;
+    }
+    .swiper-slide p{
+        font-size: 28px;
+    }
+}
+.fc-scroller {
+    overflow-y: hidden !important;
+}
+*/
+/*header*/
+.custom-navbar {
+    background-color: #000000;
+}
+
+/*card classes*/
+.is-card{
+    background-color: white;
+    box-shadow: lightgray 0px 2px 4px;
+    padding: 24px 16px;
+    border-radius: 2px;
+}
+
+/*width of each panel*/
+.trip-planner-form{
+    margin-bottom: 52px ;
+}
+.detail-form{
+    padding: 52px 0;
+}
+.planner{
+    width:58%;
+}
+.details{
+    width: 38%;
+}
+.planner-container .trip-details{
+    margin-bottom: 52px;
+}
+
+.detail-form .planner-container .trip-details .trip-days{
+    width: 20%;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 24px;
+    text-align: center;
+}
+/*calender view of no of days*/
+time.icon
+{
+    font-size: 1em; /* change icon size */
+    display: block;
+    position: relative;
+    width: 7em;
+    height: 7em;
+    background-color: #fff;
+    border-radius: 0.6em;
+    box-shadow: 0 1px 0 #bdbdbd, 0 2px 0 #fff, 0 3px 0 #bdbdbd, 0 4px 0 #fff, 0 5px 0 #bdbdbd, 0 0 0 1px #bdbdbd;
+    overflow: hidden;
+}
+time.icon *
+{
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+time.icon strong
+{
+    position: absolute;
+    top: 0;
+    padding: 0.4em 0;
+    color: #fff;
+    background-color: #00a680;
+    border-bottom: 1px dashed #00a680;
+    box-shadow: 0 2px 0 #00a680;
+}
+
+time.icon span
+{
+    font-size: 2.8em;
+    letter-spacing: -0.05em;
+    padding-top: 0.8em;
+    color: #2f2f2f;
+}
+
+.detail-form .planner-container .trip-details .trip-details-text{
+    padding: 18px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.detail-form .planner-container .trip-details .trip-book{
+    width: 28%;
+    padding: 28px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/*trip details content*/
+.trip-details{
+    /*border: 1px solid black;*/
+    /*padding: 64px 0;*/
+    padding: 12px;
+    width: 100%;
+}
+
+
+/*places content*/
+.places .places-container{
+    width: 100%;
+}
+
+.destinations{
+    margin-top: 32px;
+}
+.destinations .line{
+    position: absolute;
+    width: 2px;
+    background: rgba(0,0,0,0.2);
+    left: 24px;
+    height: 100%;
+}
+.plus{
+    position: absolute;
+    left: 12px;
+    bottom: 0;
+    font-size: 1px;
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: lightgray 0px 2px 4px;
+    cursor: pointer;
+}
+/*.destinations .line:after{
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    background: rgba(0,0,0,0.2);
+    border-radius: 7em;
+    padding: 6px;
+    left: -5px;
+}*/
+.destinations .places{
+    margin-bottom: 32px;
+    position: relative;
+}
+.places .location-sign div.image{
+    padding: 12px;
+    border-radius: 7em;
+    background: #058CBB;
+    margin-right: 12px;
+}
+.places .location-sign div.image i{
+    color: #fff;
+}
+.places .place-name>span{
+    font-size: 18px;
+    font-weight: bold;
+}
+.places .routes-action{
+    margin-top: 2px;
+}
+.places .routes-action>span{
+    margin-right: 8px;
+    display: flex;
+    align-items:center;
+}
+.places .routes-action>span>i{
+    font-size: 16px;
+    margin-right: 4px;
+}
+.places .routes-action>i{
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+.places .edit-form{
+    margin-top: 16px;
+}
+.places .edit-form .delete-option i{
+    margin-left: -6px;
+}
+
+/*details content*/
+/*.details{*/
+    /*!*position: -webkit-sticky;*!*/
+    /*position: fixed;*/
+    /*top: 0;*/
+/*}*/
+
+.book-price-container{
+    /*border: 1px solid black;*/
+    padding: 4px 0;
+}
+
+.details .details-container .book-price-container .book-price{
+    font-size:16px;
+    font-weight: bold;
+}
+
+.details .details-container .select-vehicle-heading h4, .details .details-container .select-vehicle-heading i{
+    font-size: 16px;
+}
+
+.details .details-container .select-travellers-heading h4, .details .details-container .select-travellers-heading i{
+    font-size: 16px;
+}
+
+
+.add-vehicle-type{
+    padding: 28px;
+    background: #f5f8fa;
+}
+.details .details-container .traveller-number .select-traveller{
+    padding: 12px;
+    width: 100%;
+    background: #f5f8fa;
+}
+.details .details-container .traveller-number .select-traveller table tbody tr>td{
+    padding: 10px;
+}
+.adultsAdd>i{
+    cursor: pointer;
+}
+.details .details-container #map{
+    height: 200px;
+}
+.details .details-container>div{
+    margin-bottom: 16px;
+}
+/*slider portion*/
+.trip-plan-container .detail-form .planner-container .custom-slider{
+    /*border: 1px solid black;*/
+    /*padding: 24px;*/
+    margin-bottom: 52px;
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+.trip-plan-container .detail-form .planner-container .custom-slider .prev{
+    background-color: #ffffff;
+    height: 50px;
+    width: 50px;
+    border-radius: 7em;
+    left: -27px;
+    background-size: 50% 50%;
+}
+.trip-plan-container .detail-form .planner-container .custom-slider .next{
+    background-color: #ffffff;
+    height: 50px;
+    width: 50px;
+    border-radius: 7em;
+    right: -27px;
+    background-size: 50% 50%;
+}
+/*add destination link*/
+.add-destination-between{
+    padding-top: 28px;
+}
+
+/*media queries*/
+@media only screen and (max-width: 979px){
+
+    .planner, .details{
+        width: 100%;
+    }
+    .planner{
+        margin-bottom: 32px;
+    }
+}
+
+@media only screen and (max-width: 779px){
+    .trip-details{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .detail-form .planner-container .trip-details .trip-details-text{
+        text-align: center;
+    }
+    .detail-form .planner-container .trip-details .trip-days, .detail-form .planner-container .trip-details .trip-book{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+
+
+
+
+.trip-plan-container .trip-planner .trip-planner-slider .swiper-container .swiper-wrapper .swiper-slide p{
+
+    color: white;
+    position: relative;
+    bottom: 50%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.fc-content-skeleton table tbody tr td a{
+    height: 24px;
+    opacity: .8;
+}
+#myModal .modal-dialog .modal-content{
+    border-radius: 0px !important;
+}
+#myModal .modal-dialog .modal-content .modal-footer{
+    border-top: none;
+}
+
+#myModal .custom-modal .modal-header{
+    border-bottom: none;
+}
+
+/*delete link*/
+.delete-option{
+    padding-top: 8px;
+}
+
+.airport-pickup-label{
+    width: 100% !important;
+}
+.airport-checkbox{
+    display: none;
+}
+.airport-pickup-label span{
+    color: #636b6f;
+}
+.add-on-span{
+   margin-bottom: 4px;
+}
+.add-on-span a:hover{
+    text-decoration: none;
+}
+.add-on-span a:focus{
+    text-decoration: none;
+    outline: none;
+    color: #00a680;
+}
+
+.add-on-cities-header .is-card{
+    margin-bottom: 4px!important;
+}

@@ -1,0 +1,21 @@
+<svg width="18" height="22" xmlns="http://www.w3.org/2000/svg">
+ <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+
+ <title>location_blue_icon</title>
+ <desc>Created with Sketch.</desc>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="24" width="20" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null" fill-rule="evenodd" fill="none" id="location_blue_icon">
+   <g stroke="null" fill="#010A2D" id="pickup-location-pin-copy-2">
+    <path stroke="null" id="Fill-1" d="m8.999993,10.975c-1.544275,0 -2.79762,-1.176015 -2.79762,-2.625015c0,-1.44897 1.253345,-2.624985 2.797613,-2.624985c1.544297,0 2.797642,1.176023 2.797642,2.624985c0,1.449 -1.253345,2.625015 -2.797642,2.625015m0,-9.975c-4.325113,0 -7.833315,3.29175 -7.833315,7.349985c0,5.5125 7.833315,13.650015 7.833315,13.650015c0,0 7.833344,-8.137515 7.833344,-13.650015c0,-4.058235 -3.508239,-7.349985 -7.833344,-7.349985"/>
+   </g>
+  </g>
+  <polyline fill="none" stroke="#010A2D" stroke-width="2" points="16,11.4375 16,11.4375 " id="svg_1" stroke-linecap="round"/>
+  <polyline fill="none" stroke="#010A2D" stroke-width="2" stroke-opacity="null" fill-opacity="null" points="21.5,11.4375 21.5,11.4375 " id="svg_3" stroke-linecap="round"/>
+  <polyline fill="none" stroke="#010A2D" stroke-width="7" stroke-opacity="null" fill-opacity="null" points="8.5,8.5 8.5,8.5 " id="svg_4" stroke-linecap="round"/>
+ </g>
+</svg>

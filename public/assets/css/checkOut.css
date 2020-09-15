@@ -1,0 +1,10 @@
+.item{
+    padding: 24px;
+    text-align: center;
+}
+.item p{
+    text-align: center;
+}
+.custom-navbar{
+    background: black;
+}

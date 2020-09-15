@@ -1,0 +1,33 @@
+.font-white {
+	color: rgba(255, 255, 255, 1);
+}
+.font-black {
+	color: rgba(0, 0, 0, 1);
+}
+.font-orange {
+	color: #FF9400;
+}
+.font-green {
+	color: #00B69C;
+}
+.font-red {
+	color: red;
+}
+.font-grey {
+	color: rgba(0, 0, 0, 0.3);
+}
+.background-color-orange {
+	background-color: #FF9400;
+}
+.background-color-green {
+	background-color: #00B69C;
+}
+.background-color-black {
+	background-color: #010A2D;
+}
+.background-color-grey {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+.background-color-white {
+	background-color: rgba(255, 255, 255, 1);
+}

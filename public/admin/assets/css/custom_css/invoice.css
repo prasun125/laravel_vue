@@ -1,0 +1,32 @@
+.bg-primary{
+    background-color: #5D9CEC !important;
+}
+.bg-success{
+    background-color: #A0D468 !important;
+}
+.bg-warning{
+    background-color: #FFCE54 !important;
+}
+.bg-danger{
+    background-color: #FD9883 !important;
+}
+.bg-info{
+    background-color: #48CFAD!important;
+}
+.bg-default{
+    background-color: #c1c1b7 !important;
+    color:#333;
+}
+.colors>li{
+    width:15px;
+    height:15px;
+    padding:2px;
+    border:1px solid #fff;
+}
+@media print
+{
+    .btn-section, #back-to-top, .left-side, .content-header, .header, .sam, .skin-icon {display:none;}
+    #invoice-stmt{width:100%;}
+    .right-side{margin-left:0;}
+
+}

@@ -1,0 +1,19 @@
+#form_table .check .checkbox-inline{
+    display:inline-block;
+    position:relative;
+    padding:10px;
+    margin-bottom:5px;
+    margin-left:5px;
+    margin-right:18px;
+}
+#form_table .check{
+    margin-left:15px;
+}
+textarea {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    resize: none;
+}
+.btn_marTop{
+    margin-top:10px;
+}

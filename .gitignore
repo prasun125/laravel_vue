@@ -1,0 +1,23 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+/.idea
+/.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.env
+public/admin/assets/images/cities
+.DS_Store
+
+#Ignore phpstrom config file
+.idea
+
+#Ignore vscode files
+.vscode
+
+#Ignore aptana studio project file
+.project

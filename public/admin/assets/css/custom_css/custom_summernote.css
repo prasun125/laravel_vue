@@ -1,0 +1,75 @@
+.checkbox label {
+    padding-left: 15px !important;
+}
+ul {
+    list-style-type: disc;
+}
+.note-btn  .caret{
+    margin-top: -2px;
+}
+.open .dropdown-menu{
+    z-index:10 !important;
+}
+
+.btn-group  .dropdown-menu:after{
+    left:13px !important;
+}
+
+.note-editor.fullscreen {
+    margin : 0;
+}
+.note-btn-group .note-btn{
+    height:35px !important;
+}
+.note-dimension-display{
+    color:#555;
+}
+.note-palette-title{
+    color: #1f2527;
+}
+.bootstrap-wysihtml5-insert-link-modal.modal.fade.in label{
+    margin-left: 20px;
+}
+@media (min-width:320px) and (max-width:375px){
+    .note-toolbar .note-fontname{
+        width:130px !important;
+    }
+    .panel-heading.note-toolbar .note-color .dropdown-menu .btn-group:first-child{
+        display:block !important;
+    }
+    .panel-heading.note-toolbar .note-color .dropdown-menu{
+        margin-left:-120px;
+        min-width:180px;
+    }
+    .panel-heading.note-toolbar .note-color .dropdown-menu:after{
+        left:162px !important;
+    }
+
+}
+
+@media (max-width:425px){
+    .note-toolbar .note-fontname{
+        width:130px !important;
+    }
+    .note-toolbar .note-btn-group:nth-child(5) .dropdown-menu{
+        margin-left:-51px !important;
+
+    }
+    .note-toolbar .note-btn-group:nth-child(5) .dropdown-menu:after{
+        left:80px !important;
+    }
+
+}
+@media (max-width:768px){
+
+    .panel-heading.note-toolbar .note-color .dropdown-menu{
+        min-width:180px;
+    }
+    .panel-heading.note-toolbar .note-color .dropdown-menu .btn-group:first-child{
+        display: block;
+    }
+
+}
+.panel-heading.note-toolbar .note-color .dropdown-menu .note-palette .note-color-reset{
+    color:#1f2527;
+}

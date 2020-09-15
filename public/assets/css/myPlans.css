@@ -1,0 +1,53 @@
+.my-plans-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.my-plans-row{
+    margin-top: 80px;
+    padding: 30px;
+    background: #ffffff !important;
+    border-radius: 2px;
+}
+.custom-navbar{
+    background: #000000;
+}
+.my-plans-tabs li a{
+    color: #ffffff;
+    padding: 16px;
+    border: none;
+    border-radius: 0;
+}
+.my-plans-tabs li a:hover{
+    color: #000;
+}
+.nav-tabs > li.active > a{
+    border: none !important;
+}
+.nav-tabs > li > a {
+    margin-right: 0 !important;
+}
+.previous-booking-container{
+    display: flex !important;
+}
+.previous-booking-places{
+    padding: 24px;
+    font-size: 16px;
+    width: 40%;
+    text-align: center;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+.previous-booking-places .route-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+.plan-details{
+    margin-bottom: 8px;
+}
+.previous-booking-places:hover{
+    background: #f5f8fa;
+    border-radius: 2px;
+}
+.plan-details-container{
+    text-align: left;
+}

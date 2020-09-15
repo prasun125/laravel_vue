@@ -1,0 +1,17 @@
+@media (max-width:320px){
+    .navbar-nav > .messages-menu > .dropdown-menu{
+        margin-right:-82px !important;
+    }
+    .dropdown-messages:after{
+        left:116px;
+    }
+    .navbar-nav > .notifications-menu > .dropdown-menu{
+        margin-right:-55px;
+    }
+    .notifications-menu .dropdown-messages:after{
+        left:157px;
+    }
+    body{
+        padding-top:0px;
+    }
+}
